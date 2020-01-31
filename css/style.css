@@ -1,3 +1,4 @@
+/*CARUSEL START*/
 #carouselExampleIndicators {
     position: relative;
     z-index: 1;
@@ -276,7 +277,43 @@ li {
     list-style-type: none;
 }
 
+/*CARUSEL END*/
 
+/*galery start*/
+.gal {
+
+
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
+    column-count: 3;
+
+
+}
+
+.gal img {
+    width: 100%;
+    padding: 7px 0;
+}
+
+@media (max-width: 500px) {
+
+    .gal {
+
+
+        -webkit-column-count: 1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 1;
+        /* Firefox */
+        column-count: 1;
+
+
+    }
+
+}
+
+/*galery end*/
 
 footer {
     background-color: #0c1a1e;
